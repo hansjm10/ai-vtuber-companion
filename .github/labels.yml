@@ -1,0 +1,94 @@
+# GitHub Labels Configuration
+
+# Task Types
+- name: task
+  color: '0E8A16'
+  description: Development task
+
+- name: bug
+  color: 'd73a4a'
+  description: Something isn't working
+
+- name: enhancement
+  color: 'a2eeef'
+  description: New feature or request
+
+- name: documentation
+  color: '0075ca'
+  description: Improvements or additions to documentation
+
+# Phases
+- name: phase-1
+  color: 'FBCA04'
+  description: 'Phase 1: Foundation'
+
+- name: phase-2
+  color: 'E99695'
+  description: 'Phase 2: AI Integration'
+
+- name: phase-3
+  color: 'B4A7D6'
+  description: 'Phase 3: Voice Pipeline'
+
+- name: phase-4
+  color: '9FC5E8'
+  description: 'Phase 4: Streaming Integration'
+
+- name: phase-5
+  color: 'CFE2F3'
+  description: 'Phase 5: Avatar Control'
+
+- name: phase-6
+  color: 'D9EAD3'
+  description: 'Phase 6: Training System'
+
+- name: phase-7
+  color: 'FCE5CD'
+  description: 'Phase 7: Web Dashboard'
+
+- name: phase-8
+  color: 'FFF2CC'
+  description: 'Phase 8: Polish & Optimization'
+
+# Priorities
+- name: high-priority
+  color: 'd73a4a'
+  description: High priority issue
+
+- name: medium-priority
+  color: 'FBCA04'
+  description: Medium priority issue
+
+- name: low-priority
+  color: '0E8A16'
+  description: Low priority issue
+
+# Status
+- name: blocked
+  color: '7057ff'
+  description: Blocked by another issue
+
+- name: in-progress
+  color: '2EA44F'
+  description: Currently being worked on
+
+- name: ready-for-review
+  color: '0075ca'
+  description: Ready for code review
+
+# Components
+- name: ai-core
+  color: '006b75'
+  description: AI engine components
+
+- name: voice
+  color: 'c5def5'
+  description: TTS/STT components
+
+- name: streaming
+  color: 'bfd4f2'
+  description: Twitch integration
+
+- name: avatar
+  color: 'd4c5f9'
+  description: VTube Studio integration
