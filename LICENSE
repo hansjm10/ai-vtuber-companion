@@ -1,0 +1,36 @@
+AI VTuber Companion - Proprietary License
+
+Copyright (c) 2024 AI VTuber Companion Contributors. All rights reserved.
+
+This software and associated documentation files (the "Software") are the 
+proprietary and confidential property of the copyright holders.
+
+NO PERMISSION IS GRANTED TO:
+- Use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+  copies of the Software without explicit written permission
+- Create derivative works based on the Software
+- Use the Software for commercial purposes without a commercial license
+- Reverse engineer, decompile, or disassemble the Software
+
+PERMITTED USE:
+- Personal, non-commercial use only
+- Educational and research purposes with attribution
+- Contributing to the official repository under the Contributor License Agreement
+
+RESTRICTIONS:
+- The Software may not be used for any commercial streaming or content creation
+  without obtaining a commercial license
+- The Software may not be redistributed in any form without permission
+- Any AI models trained using this Software remain the property of the project
+- Modifications must be contributed back to the original project
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+For commercial licensing inquiries, please contact: [YOUR EMAIL]
+For contributions, see CONTRIBUTING.md and sign the CLA.

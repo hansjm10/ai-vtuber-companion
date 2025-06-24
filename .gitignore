@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+.env
+
+# Models
+models/base/*
+!models/base/.gitkeep
+models/fine-tuned/*
+!models/fine-tuned/.gitkeep
+*.bin
+*.safetensors
+*.gguf
+*.pth
+
+# Data
+data/conversations/*
+!data/conversations/.gitkeep
+data/training/*
+!data/training/.gitkeep
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+build/
+
+# Secrets
+*.key
+*.pem
+.env.local
+.env.*.local
+
+# Audio
+*.wav
+*.mp3
+*.ogg

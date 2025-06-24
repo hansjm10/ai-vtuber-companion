@@ -1,0 +1,85 @@
+# AI VTuber Configuration
+
+# AI Model Settings
+ai:
+  model:
+    type: "local"  # local or api
+    name: "mistral-7b-instruct"
+    quantization: "Q4_K_M"  # For GGUF models
+    max_tokens: 200
+    temperature: 0.8
+    device: "cuda"  # cuda, rocm, cpu, metal
+    
+  personality:
+    name: "Aiko"
+    traits:
+      - cheerful
+      - curious
+      - supportive
+    backstory: "A digital entity learning about human culture"
+    speech_style: "casual and friendly"
+
+# Voice Settings  
+voice:
+  stt:
+    engine: "faster-whisper"
+    model_size: "base"
+    language: "en"
+    device: "cuda"
+    
+  tts:
+    engine: "coqui"  # coqui, elevenlabs, azure
+    voice_id: "default"
+    speed: 1.0
+    pitch: 1.0
+    
+# Streaming Platform
+twitch:
+  username: ""
+  oauth_token: ""  # Get from https://twitchapps.com/tmi/
+  client_id: ""
+  client_secret: ""
+  channel: ""
+  
+  commands:
+    prefix: "!"
+    enabled:
+      - hello
+      - mood
+      - story
+      
+# VTube Studio
+vtube_studio:
+  enabled: true
+  host: "localhost"
+  port: 8001
+  auth_token: ""
+  model_id: ""
+  
+  expressions:
+    happy: "expression_1"
+    sad: "expression_2"
+    surprised: "expression_3"
+    thinking: "expression_4"
+    
+# Training Settings
+training:
+  auto_collect: true
+  min_interactions: 100
+  batch_size: 32
+  learning_rate: 1e-5
+  
+  feedback:
+    positive_reactions: ["PogChamp", "Pog", "LUL", "KEKW"]
+    negative_reactions: ["ResidentSleeper", "NotLikeThis"]
+    
+# System Settings
+system:
+  log_level: "INFO"
+  data_retention_days: 30
+  backup_interval_hours: 24
+  
+  performance:
+    response_timeout_ms: 5000
+    max_concurrent_requests: 10
+    cache_responses: true

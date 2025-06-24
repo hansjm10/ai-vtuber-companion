@@ -1,0 +1,46 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+websockets==12.0
+redis==5.0.1
+sqlalchemy==2.0.23
+pydantic==2.5.0
+
+# AI/ML - Local Model Focus
+torch==2.1.0
+transformers==4.35.0
+accelerate==0.24.1
+bitsandbytes==0.41.1  # For quantization
+peft==0.6.0  # For LoRA fine-tuning
+sentencepiece==0.1.99
+safetensors==0.4.0
+
+# Local LLM Inference
+llama-cpp-python==0.2.20  # For GGUF models
+ctransformers==0.2.27  # Alternative inference
+vllm==0.2.2  # Fast inference server
+
+# Voice Processing - Local
+faster-whisper==0.10.0  # Local STT
+TTS==0.20.0  # Coqui TTS for local synthesis
+pyaudio==0.2.13
+soundfile==0.12.1
+librosa==0.10.1
+
+# Twitch Integration
+twitchio==2.8.0
+python-dotenv==1.0.0
+
+# VTube Studio
+websocket-client==1.6.4
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+structlog==23.2.0
+rich==13.7.0
+
+# Development
+pytest==7.4.3
+black==23.11.0
+ruff==0.1.6
+pre-commit==3.5.0
