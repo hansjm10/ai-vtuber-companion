@@ -1,0 +1,28 @@
+# Code Owners for AI VTuber Companion
+
+# Default owner for everything
+* @hansjm10
+
+# AI and ML components
+/src/ai/ @hansjm10
+/src/training/ @hansjm10
+/models/ @hansjm10
+
+# Voice processing
+/src/voice/ @hansjm10
+
+# Streaming integrations
+/src/streaming/ @hansjm10
+/src/avatar/ @hansjm10
+
+# Configuration and setup
+*.yaml @hansjm10
+*.yml @hansjm10
+/config.example.yaml @hansjm10
+
+# Documentation
+*.md @hansjm10
+/docs/ @hansjm10
+
+# CI/CD
+/.github/ @hansjm10
