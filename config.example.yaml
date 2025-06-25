@@ -1,4 +1,5 @@
 # AI VTuber Configuration
+schema_version: "1.0.0"
 
 # AI Model Settings
 ai:
